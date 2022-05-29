@@ -1,0 +1,12 @@
+
+Belirli saatte yedekleme
+
+2 23 * * * tar -vcf /mnt/username_`date+\%Y\%m\%d_\%H\%M\%S\`.tgz /home/ && echo "yedek adi:$( username2_`date+\%Y\%m\%d_\%H\%M\%S\`.tgz ) " >> ~/tmp/log.txt
+
+
+disk_kontrol.sh 
+
+* * * * * /home/disk_kontrol.sh
+
+
+
